@@ -1,0 +1,10 @@
+{
+  "include": ["./resources/js/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "baseUrl": "*",
+    "paths": {
+      "components/*": ["./resources/js/components/*"]
+    }
+  }
+}
